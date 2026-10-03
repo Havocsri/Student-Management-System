@@ -40,7 +40,7 @@ public class StudentManager {
 //            System.out.println(studentList.get(i).getMarks());
             Student currentstudent = studentList.get(i);
             System.out.println(currentstudent);
-            Filehandler.saveStudents(studentList);
+            
         }
     }
              //search the student with Id
@@ -54,7 +54,7 @@ public class StudentManager {
             }
         }
         System.out.println("Student not found");
-        Filehandler.saveStudents(studentList);
+       
     }
              //update the studentlist
     public void updateStudent(
