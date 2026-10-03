@@ -36,7 +36,7 @@ public class Filehandler {                 //declare file name
 
                 }catch (Exception e){
                     System.out.println("Error loading student data ");
-                    return null;     //file is empty then return empty data
+                    return new ArrayList<>();
                 }
             }
 }
